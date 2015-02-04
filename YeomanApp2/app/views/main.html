@@ -1,0 +1,31 @@
+<div class="jumbotron">
+  <h1>Login</h1>
+  <div class="row">
+        <div class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-header">
+              <h2 class="text-center">Enter your details </h2>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label class="col-xs-3">Username</label>
+                <div class="col-xs-8">
+                  <input type="text" class="form-control" placeholder="Username" data-ng-model="user.username"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-xs-3">Password</label>
+                <div class="col-xs-8">
+                  <input type="password" class="form-control" placeholder="Password" data-ng-model="user.password"/>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <button class="btn btn-primary" name="Login">Login</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+      Your username is {{user.username}}<br>
+      Your password is {{user.password}}
+</div>
